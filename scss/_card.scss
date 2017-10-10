@@ -215,6 +215,16 @@
 
         &:only-child {
           @include border-radius($card-border-radius);
+<<<<<<< HEAD
+=======
+
+          .card-img-top {
+            @include border-top-radius($card-border-radius);
+          }
+          .card-img-bottom {
+            @include border-bottom-radius($card-border-radius);
+          }
+>>>>>>> adds a border radius to an image when its the only card of a card group
         }
 
         &:not(:first-child):not(:last-child):not(:only-child) {
